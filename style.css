@@ -1,0 +1,266 @@
+ /* Ajout de POLICE */
+
+
+html,body {
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+background-size: cover;
+display: table;
+}
+
+
+/* barre de navigation*/
+.fixNavigation{
+  z-index: 9999;
+  position:fixed;
+   top: 0;
+   margin-top: 0;
+   height: 80px;
+   width: 100%;
+margin-left: 2%;
+display: block;
+background-color: white;
+}
+header{
+  background-image: url();
+  width: 100%;
+  height: 200px;
+  border-bottom: 2px solid black;
+}
+
+.kevin{
+  display: inline;
+  margin-left: 20%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Mafont;
+}
+ul{
+  float: right;
+  margin-right: 20%;
+}
+li{
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.anim-menu{
+  font-size: 20px;
+  font-family: Verdana;
+  color: #337ab7;
+  text-decoration: none;
+}
+.anim-menu:hover{
+  color: #484848 ;
+  }
+.anim-menu:hover{
+ border-bottom: 3px #337ab7 solid;
+ padding-bottom: 4px;
+ transition: 0.3s;
+ cursor: move;
+}
+
+
+/* PARTI PRESENTATION */
+
+main{
+   height: 900px;
+   width: 100%;
+   margin-top: 40px;
+}
+.dev{
+   height: 450px;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+.border-bot{
+   border-bottom: 2px solid black;
+   width: 80%;
+   height: 830px;
+   margin: auto;
+}
+  .txtpresentation{
+    color: #545454;
+  }
+  .namepresentation{
+    font-family: Mafonte;
+  }
+  .simplon{
+    width: 60px;
+    height: 60px;
+  }
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+
+@media (max-width:768px)
+{
+
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%;
+}
+}
+
+
+/* Parti travail*/
+.montravailtitre{
+font-weight: bold;
+margin-top: 30px;
+font-family: Mafont;
+}
+
+.montravailtitre:hover{
+
+}
+.top{
+  margin-top: 100px;
+}
+.left{
+    margin-left: 100px;
+    text-align: center;
+}
+img { max-width:100%; }
+
+
+.thumbnails li> .fff .caption {
+    background:#fff !important;
+    padding:10px
+}
+
+
+
+
+
+/* Thumbnail Box */
+.caption h4 {
+    color: #444;
+}
+
+.caption p {
+    color:#686666;
+}
+
+
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+.sw{
+  width: 370px;
+  height: 208px;
+}
+
+.sw:hover{
+
+overflow: hidden;
+  transform: rotate(357deg);
+}
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    }
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+
+li { list-style-type:none;}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+
+
+.border-top{
+  border-top: 2px solid black;
+  box-shadow:  0px 0.5px 0px gray;
+  border-bottom:  2px solid black;
+}
+
+section{
+  margin-top: 200px;
+  height: 450px;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+
+
+/* FOOTER */
+.icon-git{
+  width: 50px;
+  height: 50px;
+}
+footer {
+  position: absolute;
+display: table-row;
+  width: 100%;
+  height: 150px;
+  background-image: url(image/grunge_wall.png);
+  margin-top: 30px;
+}
+
+.disfoot{
+  display: block;
+  margin-top: 1%;
+ text-align: center;
+}
+.hreffoot{
+  color: black;
+  text-decoration: none;
+}
+.hreffoot:hover{
+  opacity: 0.91;
+}
+.fontfoot{
+  font-size: 20px;
+  font-family: monospace;
+}

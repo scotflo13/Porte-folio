@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Porte-folio</title>
+
+  <!-- lien vers le css-->
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <!-- lien de l'image de la favicon-->
+  <link rel="icon" type="image/png" href="image/favi.png" />
+  <!-- lien vers font-awesome pour les icones-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- lien vers le fichier bootstrap-->
+  <link type="text/css" rel="stylesheet" href="bootstrap.css">
+  <!-- lien jquery et bootstrap.min -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+
+
+
+
+  <main>
+    <h1 class="montravailtitre"> Présentation </h1>
+    <div class="border-bot" id="border-top">
+      <link type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+      <div class="container">
+        <div class="fb-profile">
+          <img id="Presentation" align="left" class="dev fb-image-lg" src="image/dev.jpg" alt="Profile image example" />
+          <img align="left" class="fb-image-profile thumbnail" src="image/kevin.jpg" alt="Profile image example" />
+          <div class="fb-profile-text">
+            <h1 class="namepresentation">Florent Chaspoul</h1>
+            <h4>Développeur junior</h4>
+            <p class="txtpresentation"></p>
+            <p class="txtpresentation"></p>
+            <p class="txtpresentation">
+              <span style="font-weight:bold; color: black"> Mes techno</span> : Html/css/jquery/bootstrap </p>
+            <p class="txtpresentation">
+              <span style="font-weight:bold; color:black">Mes outils</span>: Atom/git/notepadd++/photoshop </p>
+            <p class="txtpresentation">
+              <span style="font-weight:bold; color:black">Etudie à </span>:
+              <a href="https://www.centrale-marseille.fr/fr/simplonmars" target="_blank">
+                <img class="simplon" src="image/sm.png" /> </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <h1 class="montravailtitre"> Mon travail</h1>
+  <div id="Travail" class="top container">
+
+    <div class="left col-xs-12">
+
+      <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <ul class="thumbnails">
+              <li class="col-sm-3">
+                <div class="mrgdroite fff">
+                  <div class="thumbnail">
+                    <a href="" target="_blank">
+                      <img class="sw" src="image/Space-invader.png" alt=""> </a>
+                  </div>
+                  <div class="caption">
+                    <h4>Space-invaders</h4>
+                    <p> </p>
+                    <a class="btn btn-mini" href="#">» En savoir plus</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-sm-3">
+                <div class="mrgdroite fff">
+                  <div class="thumbnail">
+                    <a href="" target="_blank">
+                      <img class="sw" src="image/Paon.png" alt="">
+                    </a>
+                  </div>
+                  <div class="caption">
+                    <h4>Projet-paon</h4>
+                    <p> </p>
+                    <a class="btn btn-mini" href="#">» En savoir plus</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-sm-3">
+                <div class=" mrgdroite fff">
+                  <div class="thumbnail">
+                    <a href="" target="_blank">
+                      <img class="sw" src="image/Retro-pixel.png" alt=""> </a>
+                  </div>
+                  <div class="caption">
+                    <h4>Retro-pixel</h4>
+                    <p></p>
+                    <a class="btn btn-mini" href="#">»En savoir plus</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer id="contact">
+
+    <p class="disfoot">
+      <a class="hreffoot" href="https://github.com/scotflo13" target="_blank">
+        <img class="icon-git" src="image/github.png " /> github</a>
+    </p>
+    <p style="text-align: center"> <i class="fa fa-phone"></i> 06.25.01.68.77 </p>
+    <p class="fontfoot disfoot"> Copyright 2016 © Chaspoul </p>
+  </footer>
+
+  <script>
+    $(document).ready(function() {
+      $('.carousel').carousel({
+        interval: 9000
+      })
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
